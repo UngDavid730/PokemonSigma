@@ -1,0 +1,201 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	Large: {
+		file: pkmnrsi.fnt
+		scaledSize: 20
+		markupEnabled: false
+		flip: false
+	}
+	standard: {
+		file: pkmnrsi.fnt
+		scaledSize: -1
+		markupEnabled: false
+		flip: false
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	dialogDim: {
+		name: white
+		color: {
+			r: 0
+			g: 0
+			b: 0
+			a: 0.45
+		}
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: default-round
+	}
+	toggle: {
+		up: default-round
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	default: {
+		imageUp: fight
+		imageOver: fighthover
+	}
+	fight: {
+		imageUp: fight
+		imageOver: fighthover
+	}
+	pokemon: {
+		imageUp: pokemon
+		imageOver: pokemonhover
+	}
+	bag: {
+		imageUp: bag
+		imageOver: baghover
+	}
+	run: {
+		imageUp: run
+		imageOver: runhover
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: standard
+	}
+	battleDialog: {
+		parent: default
+		background: battleinfobox
+	}
+	battleBoxes: {
+		font: standard
+		fontColor: black
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		background: default-rect
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: standard
+		up: default-round
+	}
+	ghost: {
+		parent: default
+		font: Large
+		up: ghost
+		over: ghosthover
+	}
+	normal: {
+		parent: default
+		up: normal
+		over: normalhover
+	}
+	fire: {
+		parent: default
+		up: fire
+		over: firehover
+	}
+	water: {
+		parent: default
+		up: water
+		over: waterhover
+	}
+	electric: {
+		parent: default
+		up: electric
+		over: electrichover
+	}
+	grass: {
+		parent: default
+		up: grass
+		over: grasshover
+	}
+	ice: {
+		parent: default
+		up: ice
+		over: icehover
+	}
+	fighting: {
+		parent: default
+		up: fighting
+		over: fightinghover
+	}
+	poison: {
+		parent: default
+		up: poison
+		over: poisonhover
+	}
+	ground: {
+		parent: default
+		up: ground
+		over: groundhover
+	}
+	flying: {
+		parent: default
+		up: flying
+		over: flyinghover
+	}
+	psychic: {
+		parent: default
+		up: psychic
+		over: psychichover
+	}
+	bug: {
+		parent: default
+		up: bug
+		over: bughover
+	}
+	rock: {
+		parent: default
+		up: rock
+		over: rockhover
+	}
+	dragon: {
+		parent: default
+		up: dragon
+		over: dragonhover
+	}
+	dark: {
+		parent: default
+		fontColor: white
+		up: darkhover
+		over: dark
+	}
+	steel: {
+		parent: default
+		up: steel
+		over: steelhover
+	}
+	null: {
+		font: standard
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Touchpad$TouchpadStyle: {
+	default: {
+		background: default-pane
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Tree$TreeStyle: {
+	default: {
+		plus: tree-plus
+		minus: tree-minus
+	}
+}
+}

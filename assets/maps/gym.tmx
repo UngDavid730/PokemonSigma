@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="11" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="1">
+ <tileset firstgid="1" name="tiles2" tilewidth="32" tileheight="32" tilecount="952" columns="8">
+  <image source="tiles2.png" width="256" height="3833"/>
+ </tileset>
+ <tileset firstgid="3709" source="trainersOverworkd.tsx"/>
+ <tileset firstgid="6493" source="tiles3.tsx"/>
+ <tileset firstgid="7445" source="tiles4.tsx"/>
+ <tileset firstgid="8397" source="tiles5.tsx"/>
+ <group id="5" name="Group 1">
+  <layer id="11" name="background" width="11" height="10">
+   <data encoding="base64" compression="zlib">
+   eJybIMPAMIFIPIMEvE+RNHyMSEyMPlLtxWYeMWxs9uKzH5caYvyLLg4Ai5tdGQ==
+  </data>
+  </layer>
+  <layer id="4" name="Gym leader" width="11" height="10">
+   <data encoding="base64" compression="zlib">
+   eJxjYBicIFZooF0wuAEAfoYAcA==
+  </data>
+  </layer>
+ </group>
+ <layer id="6" name="barrier" width="11" height="10">
+  <data encoding="base64" compression="zlib">
+   eJy7rsDAcJ1GmBgwqhZVLbEYAIrgLVo=
+  </data>
+ </layer>
+ <layer id="7" name="surf" width="11" height="10" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQxEAAAG4AAE=
+  </data>
+ </layer>
+ <layer id="8" name="encounter" width="11" height="10" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQxEAAAG4AAE=
+  </data>
+ </layer>
+ <layer id="9" name="event" width="11" height="10" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJxjYBic4LrCQLtgcAMAF4cA+A==
+  </data>
+ </layer>
+ <layer id="15" name="portal" width="11" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgxXcU0BgdAAASMgC+w==
+  </data>
+ </layer>
+</map>

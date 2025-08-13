@@ -1,0 +1,469 @@
+
+uiskin.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+background_hpbar
+  rotate: false
+  xy: 1021, 1019
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+bag
+  rotate: false
+  xy: 457, 701
+  size: 110, 46
+  orig: 110, 46
+  offset: 0, 0
+  index: -1
+baghover
+  rotate: false
+  xy: 569, 701
+  size: 110, 46
+  orig: 110, 46
+  offset: 0, 0
+  index: -1
+battleMessage
+  rotate: false
+  xy: 1, 924
+  size: 512, 96
+  orig: 512, 96
+  offset: 0, 0
+  index: -1
+battleinfobox
+  rotate: false
+  xy: 1, 603
+  size: 232, 78
+  orig: 232, 78
+  offset: 0, 0
+  index: -1
+bug
+  rotate: false
+  xy: 263, 778
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+bughover
+  rotate: false
+  xy: 515, 845
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+currentEnemyMon
+  rotate: false
+  xy: 1, 762
+  size: 260, 62
+  orig: 260, 62
+  offset: 0, 0
+  index: -1
+currentPlayerMon
+  rotate: false
+  xy: 515, 893
+  size: 260, 62
+  orig: 260, 62
+  offset: 0, 0
+  index: -1
+dark
+  rotate: false
+  xy: 777, 909
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+darkhover
+  rotate: false
+  xy: 1, 555
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+default
+  rotate: false
+  xy: 1, 683
+  size: 254, 77
+  orig: 254, 77
+  offset: 0, 0
+  index: -1
+default-pane
+  rotate: false
+  xy: 429, 677
+  size: 5, 3
+  split: 1, 1, 1, 1
+  orig: 5, 3
+  offset: 0, 0
+  index: -1
+default-rect-pad
+  rotate: false
+  xy: 429, 677
+  size: 5, 3
+  split: 1, 1, 1, 1
+  orig: 5, 3
+  offset: 0, 0
+  index: -1
+default-pane-noborder
+  rotate: false
+  xy: 257, 759
+  size: 1, 1
+  split: 0, 0, 0, 0
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+default-rect
+  rotate: false
+  xy: 510, 821
+  size: 3, 3
+  split: 1, 1, 1, 1
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+default-rect-down
+  rotate: false
+  xy: 510, 816
+  size: 3, 3
+  split: 1, 1, 1, 1
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+default-round
+  rotate: false
+  xy: 763, 871
+  size: 12, 20
+  split: 5, 5, 5, 4
+  pad: 4, 4, 1, 1
+  orig: 12, 20
+  offset: 0, 0
+  index: -1
+default-select
+  rotate: false
+  xy: 971, 935
+  size: 27, 20
+  split: 4, 14, 4, 4
+  orig: 27, 20
+  offset: 0, 0
+  index: -1
+dialogBackground
+  rotate: false
+  xy: 1, 826
+  size: 512, 96
+  orig: 512, 96
+  offset: 0, 0
+  index: -1
+dragon
+  rotate: false
+  xy: 1, 507
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+dragonhover
+  rotate: false
+  xy: 1, 459
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+electric
+  rotate: false
+  xy: 1, 411
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+electrichover
+  rotate: false
+  xy: 1, 363
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+fight
+  rotate: false
+  xy: 651, 749
+  size: 110, 46
+  orig: 110, 46
+  offset: 0, 0
+  index: -1
+fighthover
+  rotate: false
+  xy: 681, 701
+  size: 110, 46
+  orig: 110, 46
+  offset: 0, 0
+  index: -1
+fighting
+  rotate: false
+  xy: 1, 315
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+fightinghover
+  rotate: false
+  xy: 1, 267
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+fire
+  rotate: false
+  xy: 1, 219
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+firehover
+  rotate: false
+  xy: 1, 171
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+flying
+  rotate: false
+  xy: 1, 123
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+flyinghover
+  rotate: false
+  xy: 1, 75
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+ghost
+  rotate: false
+  xy: 1, 27
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+ghosthover
+  rotate: false
+  xy: 515, 797
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+grass
+  rotate: false
+  xy: 263, 730
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+grasshover
+  rotate: false
+  xy: 257, 682
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+green
+  rotate: false
+  xy: 1, 21
+  size: 96, 4
+  orig: 96, 4
+  offset: 0, 0
+  index: -1
+ground
+  rotate: false
+  xy: 235, 634
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+groundhover
+  rotate: false
+  xy: 235, 586
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+hpbar_bar
+  rotate: false
+  xy: 457, 817
+  size: 51, 7
+  orig: 51, 7
+  offset: 0, 0
+  index: -1
+hpbar_side
+  rotate: false
+  xy: 389, 577
+  size: 15, 7
+  orig: 15, 7
+  offset: 0, 0
+  index: -1
+ice
+  rotate: false
+  xy: 777, 861
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+icehover
+  rotate: false
+  xy: 195, 538
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+normal
+  rotate: false
+  xy: 195, 490
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+normalhover
+  rotate: false
+  xy: 195, 442
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+pkmnrsi
+  rotate: false
+  xy: 515, 957
+  size: 504, 63
+  orig: 504, 63
+  offset: 0, 0
+  index: -1
+poison
+  rotate: false
+  xy: 195, 394
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+poisonhover
+  rotate: false
+  xy: 195, 346
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+pokemon
+  rotate: false
+  xy: 451, 653
+  size: 110, 46
+  orig: 110, 46
+  offset: 0, 0
+  index: -1
+pokemonhover
+  rotate: false
+  xy: 563, 653
+  size: 110, 46
+  orig: 110, 46
+  offset: 0, 0
+  index: -1
+psychic
+  rotate: false
+  xy: 195, 298
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+psychichover
+  rotate: false
+  xy: 195, 250
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+red
+  rotate: false
+  xy: 429, 599
+  size: 96, 4
+  orig: 96, 4
+  offset: 0, 0
+  index: -1
+rock
+  rotate: false
+  xy: 195, 202
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+rockhover
+  rotate: false
+  xy: 195, 154
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+run
+  rotate: false
+  xy: 675, 653
+  size: 110, 46
+  orig: 110, 46
+  offset: 0, 0
+  index: -1
+runhover
+  rotate: false
+  xy: 429, 605
+  size: 110, 46
+  orig: 110, 46
+  offset: 0, 0
+  index: -1
+steel
+  rotate: false
+  xy: 195, 106
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+steelhover
+  rotate: false
+  xy: 195, 58
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+tree-minus
+  rotate: false
+  xy: 195, 587
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+tree-plus
+  rotate: false
+  xy: 709, 877
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+water
+  rotate: false
+  xy: 195, 10
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+waterhover
+  rotate: false
+  xy: 457, 749
+  size: 192, 46
+  orig: 192, 46
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 260, 759
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+yellow
+  rotate: false
+  xy: 541, 647
+  size: 96, 4
+  orig: 96, 4
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="1">
+ <tileset firstgid="1" source="tiles1.tsx"/>
+ <group id="10" name="background">
+  <layer id="2" name="Tile Layer 2" width="30" height="20">
+   <data encoding="base64" compression="zlib">
+   eJzrZmBg6B7Fo3gUDwo8j0L9nTQwk1oYm9voiSeh4ckD5LfZdPArtjhfhSUMkPFAhMUsAm4ebJgYN6KrGeh0PxjwUIhbWmAArYdG5g==
+  </data>
+  </layer>
+  <layer id="1" name="mountain" width="30" height="20">
+   <data encoding="base64" compression="zlib">
+   eJyLY2ZgiBtBOI0IXEcDe4kBsSPM3lQi44OUeKEFICZ8aAGICZ9RQDyYNNAOGKFgEQE8CkbBcAUANVVHmQ==
+  </data>
+  </layer>
+  <layer id="4" name="trees1" width="30" height="20">
+   <data encoding="base64" compression="zlib">
+   eJztlrkOwjAQRG1/P5dQDgoINFDFgYKrAMKnMcikWS2LLcBpPNLTFtnJi+wm1ijVgC3YgXcp8MwKu1L3mZr0D+AITuAsdG8fvFKX816Ne2cL7kJ3T77xEtDlvEMwAmMwEbqhnl95vw09r1jeTCuVgwKUOp6X3lMs74C4ktc/0568IUne5P1H6pejb29u3L9ECWaMN2N2Ntqx9pi0380FqMASrBjvnNlptMN6TNrv5gNsAorL
+  </data>
+  </layer>
+  <layer id="5" name="trees2" width="30" height="20">
+   <data encoding="base64" compression="zlib">
+   eJztlssKwjAQRcN8iH6g/QwfGx8gVlFXik/wUUWtC7V+mrcYsRmCrTbGhb1wuDTJ5HYxhBFC1Y6E2IMD8CNeoPt+FV6jp9dBg9Q67mH9kdScJb5XYA08cAJncAFBxBey7nG2BVzQBh1Wxz2sv8bkJhX//0yqeD/YEu8HWyoiqwTKoJL1xs/VTIhJzUHvA9KoK+/YguEbbAzl9l+cyYE8WxtYyP2G/j13hDdtDCZgmsJnwJHzg6N5J3mubo7wDXhcrm6OCAz4DT4Xfo0=
+  </data>
+  </layer>
+ </group>
+ <layer id="6" name="encounter" width="30" height="20">
+  <properties>
+   <property name="encounter" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwFUsOBRe+ljL6l4KNlLCRgotwyGMBhp9o6CUTAKaA8AkLUJ/Q==
+  </data>
+ </layer>
+ <layer id="8" name="barrier" width="30" height="20" visible="0">
+  <properties>
+   <property name="barrier" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJyzZ2BgsB/FdMfYwKi99LGXVDDS7CXHLaP2jtpLjhuHsn+Hs730KJtHgr0ABa5Uag==
+  </data>
+ </layer>
+</map>

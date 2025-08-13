@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="36" nextobjectid="1">
+ <tileset firstgid="1" source="tiles1.tsx"/>
+ <group id="27" name="walkable">
+  <layer id="28" name="ground" width="30" height="20">
+   <data encoding="base64" compression="zlib">
+   eJzTZGBg0KQB1sKCaWEPITsHyl5a2znq3+FtL664pbXdA5WmcNk/XON3IO1Ft3s4x+1A+ncw2EtPO0cxJgYAGQtgaA==
+  </data>
+  </layer>
+  <layer id="30" name="water" width="30" height="20">
+   <properties>
+    <property name="water" type="bool" value="true"/>
+   </properties>
+   <data encoding="base64" compression="zlib">
+   eJxjYKA+0GRkYNCCYm1GGlgwau+ovSPA3pEGFNkYGFSgWJWNfvaOtHQ1au+ovbQAhkC7jKDYeLScBAMAmocK2w==
+  </data>
+  </layer>
+  <layer id="31" name="bridge" width="30" height="20">
+   <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDEYgyMbAIIKE6QUkgXbJALEsFI+CUTAKRsEoIB0AABUvAO0=
+  </data>
+  </layer>
+  <group id="21" name="trees">
+   <properties>
+    <property name="barrier" type="bool" value="true"/>
+   </properties>
+   <layer id="22" name="tree1" width="30" height="20">
+    <properties>
+     <property name="barrier" type="bool" value="true"/>
+    </properties>
+    <data encoding="base64" compression="zlib">
+   eJzrYWJg6AXiPiDuB+IJQIwMeiiUx6WGUnNHmr1TgPypQDwNiKcD8Qw62TsHyJ8LxPOAeD4QL6CTvcQAbGFCD3uxhQk97MUGRu1FlScmn5AClgD1LyUifonJJ6QAmH20CsdRe0ftpae9xUDzS5ionz+JBdTOn8QCAB8xhoc=
+  </data>
+   </layer>
+   <layer id="23" name="tree2" width="30" height="20">
+    <properties>
+     <property name="barrier" type="bool" value="true"/>
+    </properties>
+    <data encoding="base64" compression="zlib">
+   eJztlTsKgDAQBZdc13Oojb9CTQp/R3XsgthE2CCyA8PrMt1GJI3GibTYYY+DS3zgJdb9d3ekM+GMHkOm7kJnxQ13PDJ1DcMwvkLB3Suxwlpx78R3X2v9Qze++1p7/ScnVbFBfw==
+  </data>
+   </layer>
+  </group>
+ </group>
+ <layer id="35" name="portal" width="30" height="20">
+  <properties>
+   <property name="portal" value="gym_south"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYMAEMkh4FIyCUTAKRsEoGAWjYBSQBgAVLQBV
+  </data>
+ </layer>
+ <layer id="25" name="encounter" width="30" height="20">
+  <properties>
+   <property name="encounter" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAlskPBzttcWDR+0dtXcUjIJRMLQBAEfeCcY=
+  </data>
+ </layer>
+ <layer id="34" name="surf" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYKANCIdieoNRe0ftHU72jjQw0uJ31N5Re4eTvaMAFQAAfpcKMw==
+  </data>
+ </layer>
+ <layer id="32" name="barrier" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJybz8DAMB8NqyNhdDliMQyQo4dUfaP2Dk970cFws5dSgCt/DlV70cN5MNhLy/ilhr3kgFF7R+0dxfTBAKq94cE=
+  </data>
+ </layer>
+</map>
