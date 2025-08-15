@@ -8,15 +8,20 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.maps.MapProperties;
 import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.badlogic.gdx.maps.tiled.TiledMapTileLayer;
 import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
+import com.badlogic.gdx.utils.viewport.FitViewport;
+import com.badlogic.gdx.utils.viewport.Viewport;
+
 import java.util.Random;
 
 public class RouteScene implements Screen {
     private Player player = Player.getInstance();
     PokemonSigma game;
+    private Viewport viewport;
     private String[] pokemonEncounters = {
         "Turtwig", "Grotle", "Torterra", "Torchic", "Combusken", "Blaziken",
         "Oshawott", "Dewott", "Samurott", "Sentret", "Furret", "Zigzagoon",
@@ -59,10 +64,19 @@ public class RouteScene implements Screen {
         Gdx.input.setInputProcessor(actor);
     }
     public void cameraUpdate(){
-        float spriteCenterX = actor.getX() + actor.getWidth() / 2f;
-        float spriteCenterY = actor.getY() + actor.getHeight() / 2f;
-        camera.position.x = spriteCenterX;
-        camera.position.y = spriteCenterY;
+        Integer worldX;
+        Integer worldY;
+        worldX = (Integer) map.getProperties().get("height") * 32;
+        worldY = (Integer) map.getProperties().get("width") * 32;
+        if(actor.getY()-(viewport.getScreenHeight()/2) > 0 && actor.getY()-(viewport.getScreenHeight()/2) < worldY-32){
+            camera.position.y=actor.getY();
+        }
+        if(actor.getX()-(viewport.getScreenWidth()/2) > 0 && actor.getX()+(viewport.getScreenWidth()) < worldX){
+            camera.position.x=actor.getX();
+        }
+
+
+
         camera.update();
     }
     @Override
@@ -96,8 +110,7 @@ public class RouteScene implements Screen {
     }
     @Override
     public void resize(int width, int height) {
-        camera.viewportWidth = width;
-        camera.viewportHeight = height;
+        viewport.update(width, height);
         camera.update();
     }
     @Override
@@ -121,7 +134,7 @@ public class RouteScene implements Screen {
         map = new TmxMapLoader().load("maps/" + mapname + ".tmx");
         renderer = new OrthogonalTiledMapRenderer(map);
         camera = new OrthographicCamera();
-        camera.setToOrtho(false, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+        viewport = new FitViewport(640, 360, camera);
         int mapHeightInTiles = map.getProperties().get("height", Integer.class);
         int mapWidthInTiles = map.getProperties().get("width", Integer.class);
         int tileHeightInPixels = map.getProperties().get("tileheight", Integer.class);
@@ -134,7 +147,8 @@ public class RouteScene implements Screen {
         actor = new Actor(new Sprite(new Texture(Gdx.files.internal("dawn.png"))),layers);
         actor.setX((mapWidthInTiles * tileWidthInPixels)-tileWidthInPixels);
         actor.setY(((float) mapHeightInTiles /2) * tileHeightInPixels);
-
+        camera.position.x=actor.getX();
+        camera.position.y=actor.getY();
     }
 
 }

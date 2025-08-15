@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="36" nextobjectid="1">
- <tileset firstgid="1" source="tiles1.tsx"/>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="36" nextobjectid="1">
+ <tileset firstgid="1" source="../../../maps/tiles1.tsx"/>
  <group id="27" name="walkable">
-  <layer id="28" name="ground" width="30" height="20">
+  <layer id="28" name="ground" width="30" height="40">
    <data encoding="base64" compression="zlib">
-   eJzTZGBg0KQB1sKCaWEPITsHyl5a2znq3+FtL664pbXdA5WmcNk/XON3IO1Ft3s4x+1A+ncw2EtPO0cxJgYAGQtgaA==
+   eJzt0rsNACAMA9GsE/YfkB7xKZAxiq549SlyMiJSoE0oOqemq6tucm/t7mpbddv1U6t+1X2d3bFdeVvnvT90Xzax3x8AAAD3Omn1wtg=
   </data>
   </layer>
-  <layer id="30" name="water" width="30" height="20">
+  <layer id="30" name="water" width="30" height="40">
    <properties>
     <property name="water" type="bool" value="true"/>
    </properties>
    <data encoding="base64" compression="zlib">
-   eJxjYKA+0GRkYNCCYm1GGlgwau+ovSPA3pEGFNkYGFSgWJWNfvaOtHQ1au+ovbQAhkC7jKDYeLScBAMAmocK2w==
+   eJzt1LENwCAMRNFzwx5IoQAqkv13g8Ij4DT+T7r6N5al+7pJwzctIECXboJuNrVIj6+V/7rZ7oou3QjrtF7fx58EAABAgA1loQrb
   </data>
   </layer>
-  <layer id="31" name="bridge" width="30" height="20">
+  <layer id="31" name="bridge" width="30" height="40">
    <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDEYgyMbAIIKE6QUkgXbJALEsFI+CUTAKRsEoIB0AABUvAO0=
+   eJztzSEKACAQAMFLdsEi6P+/6QWDL1DDDGzeCOBHtUS0o1t6vkY2dwAAAPDaAsOHAO0=
   </data>
   </layer>
   <group id="21" name="trees">
    <properties>
     <property name="barrier" type="bool" value="true"/>
    </properties>
-   <layer id="22" name="tree1" width="30" height="20">
+   <layer id="22" name="tree1" width="30" height="40">
     <properties>
      <property name="barrier" type="bool" value="true"/>
     </properties>
     <data encoding="base64" compression="zlib">
-   eJzrYWJg6AXiPiDuB+IJQIwMeiiUx6WGUnNHmr1TgPypQDwNiKcD8Qw62TsHyJ8LxPOAeD4QL6CTvcQAbGFCD3uxhQk97MUGRu1FlScmn5AClgD1LyUifonJJ6QAmH20CsdRe0ftpae9xUDzS5ionz+JBdTOn8QCAB8xhoc=
+   eJztk7kKgDAQBUN+WT8jHoVX4VXof/oaQSHChsS18A1MEaIZSFhnjSlgCStYwysucv/pm9hz/9ZtsG5hB3s4KHVHrCc4wwWuSl0JvjvR6PruRKPrg937vmROQtjw/y54X8mchHD23rpHdtnV7GY4P7fp51NK6vkkhBBCCCHfcACatIaH
   </data>
    </layer>
-   <layer id="23" name="tree2" width="30" height="20">
+   <layer id="23" name="tree2" width="30" height="40">
     <properties>
      <property name="barrier" type="bool" value="true"/>
     </properties>
     <data encoding="base64" compression="zlib">
-   eJztlTsKgDAQBZdc13Oojb9CTQp/R3XsgthE2CCyA8PrMt1GJI3GibTYYY+DS3zgJdb9d3ekM+GMHkOm7kJnxQ13PDJ1DcMwvkLB3Suxwlpx78R3X2v9Qze++1p7/ScnVbFBfw==
+   eJzt1b0OQDAYheGmt+s6sPgbUAPqUp2xEUtFG5H3Sd58m7OVMXEaa0yrOtWrwUZ+4CF2/707amdSs3JqybS7amdTu/LqyLQLAF9R6N0rVaXqhPcqfPdTXXezG777qa7nXwIAAPC6E4BLQX8=
   </data>
    </layer>
   </group>
  </group>
- <layer id="35" name="portal" width="30" height="20">
+ <layer id="35" name="portal" width="30" height="40">
   <properties>
    <property name="portal" value="gym_south"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYMAEMkh4FIyCUTAKRsEoGAWjYBSQBgAVLQBV
+   eJztwzENAAAIA7AJwb9O3iUI4GmTJtdUAAAAAPi0MjoAVQ==
   </data>
  </layer>
- <layer id="25" name="encounter" width="30" height="20">
+ <layer id="25" name="encounter" width="30" height="40">
   <properties>
    <property name="encounter" type="bool" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwAlskPBzttcWDR+0dtXcUjIJRMLQBAEfeCcY=
+   eJztzbEJAAAIwDAf8/+3HHVyFkmgcyPgphx9/OaSry8AAACtAO1zCcY=
   </data>
  </layer>
- <layer id="34" name="surf" width="30" height="20" visible="0">
+ <layer id="34" name="surf" width="30" height="40" visible="0" locked="1">
   <data encoding="base64" compression="zlib">
-   eJxjYKANCIdieoNRe0ftHU72jjQw0uJ31N5Re4eTvaMAFQAAfpcKMw==
+   eJzt0aERAAAIAzG2ZP9NMKwAApK76heNmJG9bbq6l7rffPtXV/dSFwAAJhUiVwoz
   </data>
  </layer>
- <layer id="32" name="barrier" width="30" height="20" visible="0">
+ <layer id="32" name="barrier" width="30" height="40" locked="1">
   <data encoding="base64" compression="zlib">
-   eJybz8DAMB8NqyNhdDliMQyQo4dUfaP2Dk970cFws5dSgCt/DlV70cN5MNhLy/ilhr3kgFF7R+0dxfTBAKq94cE=
+   eJzt0cEJACAMBMF0Y9lp1Zcg94ohioQduJfIgrqZuWxs07Polsyd03t0e3ZVt26FTl195x+6N/+3optBly57MwAAANSa8cPhTA==
   </data>
  </layer>
 </map>
